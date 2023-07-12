@@ -9,15 +9,13 @@ final _global = DsButtonType.global.variant;
 final _disabled = DsState.disabled.variant;
 
 class MdnButtonStyle {
-  MdnButtonStyle();
-
   final mix = Mix(
     animated(),
-    mt.md,
-    mb.md,
+    ml.md,
+    mr.md,
     bgColor(Colors.blue),
     textColor(Colors.white),
-    paddingVertical(10),
+    paddingVertical(20),
     paddingHorizontal(20),
     rounded(20),
     (hover)(
